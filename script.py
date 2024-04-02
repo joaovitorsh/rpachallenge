@@ -4,9 +4,10 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
+import os
 
 # access file
-excel_path = '.\challenge.xlsx'
+excel_path = os.path.join('.', 'challenge.xlsx')
 df = pd.read_excel(excel_path)
 
 # access url
