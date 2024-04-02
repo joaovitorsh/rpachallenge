@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 import time
 
 # access file
-excel_path = '.\challenge.xlsx'
+excel_path = './challenge.xlsx'
 df = pd.read_excel(excel_path)
 
 # access url
